@@ -64247,10 +64247,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1241989444017746, guid: 2f9bd05a9cb1cd2469fdb14ddab64fa5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1917322236}
+    - targetCorrespondingSourceObject: {fileID: 1241989444017746, guid: 2f9bd05a9cb1cd2469fdb14ddab64fa5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1917322237}
+    - targetCorrespondingSourceObject: {fileID: 1241989444017746, guid: 2f9bd05a9cb1cd2469fdb14ddab64fa5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1917322238}
   m_SourcePrefab: {fileID: 100100000, guid: 2f9bd05a9cb1cd2469fdb14ddab64fa5, type: 3}
 --- !u!4 &1339500710 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4400066950076146, guid: 2f9bd05a9cb1cd2469fdb14ddab64fa5, type: 3}
+  m_PrefabInstance: {fileID: 1339500709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1339500711 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23410473417239506, guid: 2f9bd05a9cb1cd2469fdb14ddab64fa5, type: 3}
   m_PrefabInstance: {fileID: 1339500709}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1340680605
@@ -87935,6 +87946,43 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &1917322237
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917322232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fce17b0e540194770bc313718d4a199c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1917322238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917322232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f053e2b4aeb1448309335dc3ec1d6beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  platformRenderer: {fileID: 1339500711}
+  lowestMaterial: {fileID: 2100000, guid: 04e71246c75bcad4bb526ab1430652ce, type: 2}
+  highestMaterial: {fileID: 2100000, guid: e94c6df55c23461438121ac71f432855, type: 2}
 --- !u!1001 &1918643820
 PrefabInstance:
   m_ObjectHideFlags: 0
